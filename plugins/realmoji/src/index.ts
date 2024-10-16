@@ -59,6 +59,8 @@ patches.push(after("generate", RowManager.prototype, ([data], row) => {
       src: url,
       frozenSrc: url.replace("gif", "webp"),
       jumboable: jumbo ? true : undefined,
+      log_edit: false, 
+      otherPluginBypass: true, // antied will ignore edits
     };
   }
 }));
