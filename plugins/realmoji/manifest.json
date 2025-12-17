@@ -1,10 +1,14 @@
 {
   "name": "Realmoji",
-  "description": "Makes freemojis real",
+  "description": "Makes freemojis real. Antied support.",
   "authors": [
     {
       "name": "redstonekasi",
       "id": "265064055490871297"
+    },
+    {
+      "name": "Rico040",
+      "id": "619474349845643275"
     }
   ],
   "main": "src/index.ts",
